@@ -1,0 +1,88 @@
+{
+  "id": "/subscriptions/658b1f7b-0693-4eab-bf5a-e9a2e7f4d4e3/resourceGroups/Korenbeatz/providers/Microsoft.Resources/deployments/Microsoft.Blockchain_e90149492875407283449f902fe2ea6d",
+  "name": "Microsoft.Blockchain_e90149492875407283449f902fe2ea6d",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/658b1f7b-0693-4eab-bf5a-e9a2e7f4d4e3/resourcegroups/Korenbeatz/providers/Microsoft.Blockchain/blockchainMembers/korenbeatz",
+    "marketplaceItemId": "Microsoft.Blockchain"
+  },
+  "properties": {
+    "templateLink": {
+      "uri": "https://gallery.azure.com/artifact/20161101/Microsoft.Blockchain.1.2.5-preview/DeploymentTemplates/CreateBlockchainMemberV6.json",
+      "contentVersion": "1.0.0.0"
+    },
+    "templateHash": "15534871303936832812",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "korenbeatz"
+      },
+      "location": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "protocol": {
+        "type": "String",
+        "value": "Quorum"
+      },
+      "consensus": {
+        "type": "String",
+        "value": "Default"
+      },
+      "validatorNodeSkuCapacity": {
+        "type": "Int",
+        "value": 2
+      },
+      "password": {
+        "type": "SecureString"
+      },
+      "consortium": {
+        "type": "String",
+        "value": "korenbeatz"
+      },
+      "sku": {
+        "type": "String",
+        "value": "S0"
+      },
+      "skuName": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "consortiumManagementAccountPassword": {
+        "type": "SecureString"
+      },
+      "tags": {
+        "type": "Object",
+        "value": {
+          "provisioningHash": "Root-3103453",
+          "application": "databricks",
+          "ms-resource-usage": "azure-cloud-shell",
+          "databricks-environment": "true"
+        }
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2020-06-26T07:43:56.6935059Z",
+    "duration": "PT6M19.268533S",
+    "correlationId": "15853202-68ad-4c45-9fa1-936e5df62cbf",
+    "providers": [
+      {
+        "namespace": "Microsoft.Blockchain",
+        "resourceTypes": [
+          {
+            "resourceType": "blockchainMembers",
+            "locations": [
+              "westeurope"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "validationLevel": "Template"
+  }
+}

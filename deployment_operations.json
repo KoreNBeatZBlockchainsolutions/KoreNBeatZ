@@ -1,0 +1,19 @@
+[
+  {
+    "id": "/subscriptions/658b1f7b-0693-4eab-bf5a-e9a2e7f4d4e3/resourceGroups/Korenbeatz/providers/Microsoft.Resources/deployments/Microsoft.Blockchain_e90149492875407283449f902fe2ea6d/operations/DAB2A693D7C2EC51",
+    "operationId": "DAB2A693D7C2EC51",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Running",
+      "timestamp": "2020-06-26T07:43:56.7362433Z",
+      "duration": "PT6M18.9418251S",
+      "trackingId": "7c6fd7ef-69cd-4bde-9547-c264fa2dee9b",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/658b1f7b-0693-4eab-bf5a-e9a2e7f4d4e3/resourceGroups/Korenbeatz/providers/Microsoft.Blockchain/blockchainMembers/korenbeatz",
+        "resourceType": "Microsoft.Blockchain/blockchainMembers",
+        "resourceName": "korenbeatz"
+      }
+    }
+  }
+]
